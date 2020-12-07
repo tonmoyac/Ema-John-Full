@@ -19,6 +19,18 @@ nav a{
 nav a:hover{
     background:gray;
 }
+nav button{
+    color: #fff;
+    border: 2px solid grey;
+    background: rgba(255, 255, 255, 0.267);
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+nav button:hover{
+    border: 2px solid goldenrod;
+}
 .search-container {
     background-color: #222;
     padding: 20px;
@@ -58,6 +70,9 @@ nav a:hover{
         font-size:18px;
         margin: 15px;
     }
+    nav button{
+        font-size: 16px;
+    }
     .search-container {
         padding: 12px;
     }
@@ -78,6 +93,11 @@ nav a:hover{
         line-height: 25px;
         font-size:14px;
         margin: 10px;
+    }
+    nav button{
+        font-size: 16px;
+        padding: 4px;
+        margin: 4px;
     }
     .search-container {
         padding: 8px;

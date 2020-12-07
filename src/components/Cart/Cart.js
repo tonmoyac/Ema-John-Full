@@ -1,8 +1,12 @@
-import React from 'react';
-import './Cart.css'
+import React, { useContext } from 'react';
+import './Cart.css';
+import { CartContext } from '../../App';
 
 const Cart = (props) => {
-    const cart = props.cart
+    const [cartItem, setCartItem] = useContext(CartContext);
+    setCartItem(props.cart);
+
+    const cart = props.cart;
     // console.log(cart)
 
     let total = 0;

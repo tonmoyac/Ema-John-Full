@@ -1,0 +1,33 @@
+.shipment{
+    text-align: center;
+
+}
+.shipment p {
+    color: goldenrod;
+    font-weight: bold;
+}
+.ship-form input[type="submit"] {
+    font-size: 18px;;
+    color: goldenrod;
+    font-weight: 700;
+    border: 1px solid goldenrod;
+    cursor: pointer;
+}
+
+.ship-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ship-form input {
+    display: block;
+    margin-bottom: 30px;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 300px;
+}
+.error {
+    color: red;
+}

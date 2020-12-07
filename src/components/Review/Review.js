@@ -9,10 +9,10 @@ import { useHistory } from 'react-router-dom';
 
 const Review = () => {
     const [cart, setCart] = useState([]);
-    const [orderPlaced, setOrderPlaced] = useState(false);
+    // const [orderPlaced, setOrderPlaced] = useState(false);
     const history = useHistory();
 
-    const {handleProceedCheckout} = () => {
+    const handleProceedCheckout = () => {
         history.push('/shipment');
     }
 

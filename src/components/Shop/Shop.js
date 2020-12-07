@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useContext, useEffect } from 'react';
 import './Shop.css'
 import Footer from '../Footer/Footer';
 import { useState } from 'react';
@@ -8,7 +8,9 @@ import Cart from '../Cart/Cart';
 import { addToDatabaseCart, getDatabaseCart } from '../utilities/databaseManager';
 import { Link } from 'react-router-dom';
 
+
 const Shop = () => {
+    
     const data = fakeData.slice(0,15);
     const [products, setProducts] = useState(data);
     const [cart, setCart] =useState([]);
