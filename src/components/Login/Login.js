@@ -96,10 +96,11 @@ const fbSignIn = () => {
     return (
         <div className="login">
             <h2>Login From</h2>
-            {
+            <button onClick={googleSignIn}>Sing in</button>
+            {/* {
                 user.isSignedIn ? <button onClick={signOut}>Sing out</button> :
                 <button onClick={googleSignIn}>Sing in</button>
-            }
+            } */}
             <button onClick={fbSignIn}>Sign in Using Facebook</button>
 
             {
